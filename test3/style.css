@@ -1,0 +1,29 @@
+a {
+    box-shadow: 0px 0px 0px 2px #f3f3f3;
+	background-image:linear-gradient(#e1e1e1,#acacac);
+	border-radius:10px;
+	border:1px solid #a8a8a8;
+	display:inline-block;
+	cursor:pointer;
+	color:#575350;
+	font-family:Arial;
+	font-size:19px;
+	font-weight: bold;
+	padding:10px;
+	position: relative;
+	text-decoration:none;
+    text-transform: uppercase;
+  }
+
+  a:after {
+	content: '\2605';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	background:#cccccc;
+	border-radius:10px;
+	border: 1px solid #747474;
+	z-index: -1;
+  }

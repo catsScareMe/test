@@ -18,4 +18,4 @@ You must not edit `index.html`
 
 # Your Answer Here
 
-_type here what is the issue and how you solve it_
+The issue is with the padding. Adding the padding to the established widths would make it exceed a 100%. Adding the property box-sizing with the value border-box helps account the padding.

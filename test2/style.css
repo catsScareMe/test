@@ -8,12 +8,13 @@
 }
 
 .main-story {
-  position: relative;
-  margin: 0 0 25px 0;
+  /* position: relative; */
+  margin: 0 0 3.125% 0;
 }
 
 img {
   display: block;
+  width: 100%;
 }
 
 a {
@@ -21,12 +22,12 @@ a {
 }
 
 .story-intro {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   left: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.75);
-  padding: 20px;
+  padding: 2.5%;
   color: white;
 }
 
@@ -35,7 +36,7 @@ h1 {
 }
 h1,
 h2 {
-  margin: 0 0 10px 0;
+  margin: 0 0 1.25% 0;
 }
 
 .story-intro h1 {
@@ -47,17 +48,37 @@ h2 {
 
 .sub-stories {
   overflow: hidden;
-  margin: 0 0 25px 0;
+  margin: 0 0 3.125% 0;
 }
 
 .sub-story {
   float: left;
-  width: 250px;
-  margin-right: 25px;
-  position: relative;
+  width: 31.25%;
+  margin-right: 3.125%;
+  /* position: relative; */
   font-size: 80%;
 }
 
 .last {
   margin-right: 0;
 }
+
+@media (max-width: 500px){
+  .sub-story {
+    float: left;
+    width: 100%;
+    /* position: relative; */
+    font-size: 10vw;
+    padding: 3.125%;
+  }
+  img{
+    width: 100%;
+  }
+  h1{
+    font-size: 30vw;
+  }
+  .story-intro h1 {
+    font-size: 20vw;
+  }
+}
+

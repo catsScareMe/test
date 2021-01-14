@@ -1,5 +1,5 @@
 body {
-  padding: 30px;
+  padding: 1px;
 }
 header {
   background: lightblue;
@@ -22,5 +22,6 @@ header,
 article,
 section,
 .module {
+  box-sizing: border-box;
   padding: 1rem;
 }
